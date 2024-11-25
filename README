@@ -1,0 +1,47 @@
+#Parcel
+
+1. Hot Module Replacement (HMR)- We make changes to your code, Parcel automatically rebuilds the changed files and updates your app in the browser
+2. File Watcher Algorithm (written in C++). It keeps track of all the files which are changing realtime and it tells the server to reload.
+3. Caching - If you restart the dev server, Parcel will only rebuild files that have changed since the last time it ran.
+4. HTTPs - dev server supports
+5. Code splitting - split your application code into separate bundles which can be loaded on demand, resulting in smaller initial bundle sizes and faster load times.
+6. Tree shaking - process of removing the unwanted code that we do not use while developing the application
+7. Shared bundles - When multiple parts of your application depend on the same common modules, they are automatically deduplicated into a separate bundle
+8. Minify Code - removing whitespace, renaming variables to shorter names, and many other optimizations.
+9. Cleaning our code
+10. Dev and production build
+11. Super fast build algorithm
+12. Image Optimization - lossless image optimization for JPEGs and PNGs by default in production mode, which reduces the size of images without affecting their quality
+13. Caching while development
+14. Compression
+15. Compatible with older browser versions
+16. Https on dev
+17. Image Optimization
+18. Port No
+19. Consistency Hashing Algorithm
+20. Zero Config
+
+Assig 2 :
+Que 1 . What is `NPM`?
+Ans. NPM is a package manager. It allows developers to easily install, manage, and share reusable code
+
+Que 2. What is `Parcel/Webpack`? Why do we need it?
+Ans. Parcel is a zero configuration build tool for the web. Parcel automatically tracks all of the files, configuration, plugins, and dev dependencies that are involved in your build, and granularly invalidates the cache
+
+Que 3. What is `npx` ?
+Ans. It is an npm package runner that can execute any package that you want from the npm registry without even installing that package. The npx is useful during a single time use package.
+
+Que 4.What is difference between `dependencies` vs `devDependencies`
+Ans. dependencies are required to run an application in production(-S), while devDependencies (-D) are only used for development and testing
+
+Que 5. What is `.gitignore`? What should we add and not add into it?
+Ans. The purpose of gitignore files is to ensure that certain files not tracked by Git remain untracked. The dependency which can be installed again and which are not need to put on git
+
+Que 6. What is the difference between `package.json` and `package-lock.json`
+Ans. package.json file focuses on project metadata and specifying the desired versions of dependencies, while the package-lock.json file ensures deterministic installations by locking the exact versions of dependencies and their dependencies.
+
+Que 7. Why should I not modify `package-lock.json`?
+Ans. To ensure consistency and reproducibility across different environments, both files should be committed to version control, and developers should be careful not to modify the package-lock. json file directly
+
+Que 8. What is `node_modules` ? Is it a good idea to push that on git?
+Ans.
